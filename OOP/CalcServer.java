@@ -1,6 +1,6 @@
 //mathServer//import java.rmi.*;import java.rmi.Naming.*;import java.rmi.server.*;import java.rmi.registry.*;
 
-//2 Classes in one - Please note. Server and client
+//2 Classes in one - Please note. Server and client. May need to save in seperate files for singularity OOP implementation
 
 import java.net.*;
 import java.util.*;
