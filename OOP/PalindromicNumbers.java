@@ -11,7 +11,7 @@ public class PalindromicNumbers{
         
         String num2 = myscan.nextLine();
         myscan.close();
-        
+         
         //conversion by converting string to buffer
         String res1= new StringBuffer(num2).reverse().toString();
         System.out.println(res1.equals(num2)? num2 + " is a Palindrome " : num2+ " is not a palindrome");

@@ -8,7 +8,6 @@ public class PrimeNumTest{
         Scanner myscan = new Scanner(System.in);
         
         int num = myscan.nextInt();
-        myscan.close();
         
         //Now lets test
         Boolean isPrime=true;
@@ -25,4 +24,6 @@ public class PrimeNumTest{
 	else
 	   System.out.println(num + " is not a Prime Number");
      }
+	        myscan.close();//al
+
 }
